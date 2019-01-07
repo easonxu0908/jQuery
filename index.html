@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <title>六角學院</title>
+    <meta name="description" content="主流前端網站的設計基礎就在六角學院，在這裡不再是填鴨式教學，而是透過實際的範例，瞭解正確的網站開發流程，講師均具有業界開發經驗，讓學員學習業界主流的開發方法。">
+    <meta name="keywords" content="前端,六角學院,網頁設計,網站設計">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta property="fb:app_id" content="APP ID" />
+    <meta property="og:type" content="website" /> <!-- 類型 -->
+    <meta property="og:title" content="六角學院" />
+    <meta property="og:description" content="主流前端網站的設計基礎就在六角學院，在這裡不再是填鴨式教學，而是透過實際的範例，瞭解正確的網站開發流程，講師均具有業界開發經驗，讓學員學習業界主流的開發方法。" />
+    <meta property="og:image" content="預覽圖 URL，必須大於 200x200，建議大小 600 x 314 最適合顯示" />
+    <meta property="og:site_name" content="六角學院" />
+    <meta property="og:url" content="URL" />
+    <link href="./imges/titleImg.png" rel="apple-touch-icon" />
+    <link rel="stylesheet" href="./css/lightbox.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/css/swiper.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="header">
+            <div class="fb_twitter">
+                <ul>
+                    <li> <span class="fb"><a href="#"><img src="./images/fbImg.png" alt="fbImg"></span> 紛絲團</a></li>
+                    <li> <span class="twitter"><a href="#"><img src="./images/tiwtterImg.png" alt="tiwtterImg"></span>
+                        關於我們</a></li>
+                </ul>
+                <div class="clearFix"></div>
+            </div>
+            <div class="top_menu">
+                <h1><a class="logo" href="#" title="六角學院">六角學院</a></h1>
+                <ul>
+                    <li><a href="#">首頁</a></li>
+                    <li>
+                        <a href="#" class="jq_dropdown_product dropdown_product">產品介紹</a>
+                        <ul class="jq_dropdown_open_product dropdown_open_product">
+                            <li><a href="#html5">Html5 基礎教學</a></li>
+                            <li><a href="#rwd">響應式網站設計</a></li>
+                            <li><a href="#jQuery">Query 實戰教學</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="jq_dropdown_contact">聯絡我們</a>
+                        <ul class="jq_dropdown_open_contact dropdown_open_contact">
+                            <li><a href="#contact_email">E-mail</a></li>
+                            <li><a href="#contact_phone">電話</a></li>
+                        </ul>
+
+                    </li>
+                </ul>
+                <div class="clearFix"></div>
+            </div>
+            <div class="swiper-container">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="./images/banner.png" alt="banner"></div>
+                    <div class="swiper-slide banner"><img src="./images/toystory.jpg" alt="banner"></div>
+                    <div class="swiper-slide banner"><img src="./images/up.jpg" alt="banner"></div>
+                    <div class="swiper-slide banner"><img src="./images/walle.jpg" alt="banner"></div>
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+            </div>
+            <div class="jq_back_home back_home">
+                <a href="#" id="back_home_close" class="jq_back_home_close" title="關閉"><i class="fas fa-times-circle"></i></a>
+                <a href="#" class="jq_back_home_icon" title="回頁首"><i class="fas fa-home"></i></a>
+            </div>
+        </div>
+        <div class="content">
+            <div class="product">
+                <div class="sub_product" id="html5">
+                    <a href="./images/html5.png" title="Html5 基礎教學" data-lightbox="example-set"><img src="./images/html5.png"
+                            alt="html5"></a>
+                    <h3>Html5 基礎教學</h3>
+                    <br>
+                    <p>主流前端網站的設計基礎就在六角學院，在這裡不再是填鴨式教學，而是透過實際的範例，瞭解正確的網站開發流程，講師均具有業界開發經驗，讓學員學習業界主流的開發方法。</p>
+                </div>
+                <div class="sub_product" id="rwd">
+                    <a href="./images/rwd.png" title="響應式網站設計" data-lightbox="example-set"><img src="./images/rwd.png"
+                            alt="rwd"></a>
+                    <h3>響應式網站設計</h3>
+                    <br>
+                    <p>響應式網站設計(Responsive web design)，目前大多使用者均是以手機瀏覽的情況下，響應式網站已經是必備的。六角學院將會提供業界響應式開發方法，讓學生了解行動版開發技巧。</p>
+                </div>
+                <div class="sub_product" id="jQuery">
+                    <a href="./images/jQuery.png" title="jQuery 實戰教學" data-lightbox="example-set"><img src="./images/jQuery.png"
+                            alt="jQuery"></a>
+                    <h3>jQuery 實戰教學</h3>
+                    <br>
+                    <p>本課程特色有以下</p>
+                    <ul>
+                        <li> 瞭解變數的使用方法</li>
+                        <li> 學習並操作DOM</li>
+                        <li> 學習基本數學運算方法</li>
+                        <li> 套件的操作及運用</li>
+                    </ul>
+                </div>
+                <div class="clearFix"></div>
+            </div>
+            <div class="table">
+                <h2>線上及實體課程的差異</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="col_1">項目</th>
+                            <th class="col_2">Hex Shool 線上課程</th>
+                            <th class="col_3">一般線上課程</th>
+                            <th class="col_4">實體課程</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="col_1">費用</td>
+                            <td class="col_2 green">較低</td>
+                            <td class="col_3 green">較低</td>
+                            <td class="col_4">較高</td>
+                        </tr>
+                        <tr>
+                            <td class="col_1">學習效果</td>
+                            <td class="col_2">一般</td>
+                            <td class="col_3">較低</td>
+                            <td class="col_4 green">很好</td>
+                        </tr>
+                        <tr>
+                            <td class="col_1">Code review</td>
+                            <td class="col_2 green">有</td>
+                            <td class="col_3">無</td>
+                            <td class="col_4">不一定</td>
+                        </tr>
+                        <tr>
+                            <td class="col_1">課程更新速度</td>
+                            <td class="col_2 green">普通</td>
+                            <td class="col_3 green">普通</td>
+                            <td class="col_4">較慢</td>
+                        </tr>
+                        <tr>
+                            <td class="col_1">多次練習</td>
+                            <td class="col_2 green">可</td>
+                            <td class="col_3 green">可</td>
+                            <td class="col_4">不可</td>
+                        </tr>
+                        <tr>
+                            <td class="col_1">字幕</td>
+                            <td class="col_2 green">有</td>
+                            <td class="col_3">不一定</td>
+                            <td class="col_4">板書</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="data">
+                <div class="data_hd">
+                    <h2>對我們的課程有興趣嗎?</h2>
+                    <h2>歡迎留下您的資料</h2>
+                </div>
+                <form class="form" action="">
+                    <div class="form_left">
+                        <textarea name="message" class="textarea" id="" cols="50" rows="10" placeholder="請輸入想詢問的問題，或建議的留言。"></textarea>
+                    </div>
+                    <div class="form_right">
+                        <label for="person" class="label">姓名</label>
+                        <br>
+                        <input type="text" class="input" name="person" id="person" placeholder="範例:六角講師">
+                        <br>
+                        <label for="phone" class="label">電話</label>
+                        <br>
+                        <input type="text" class="input" name="phone" id="phone" placeholder="範例:0912345678">
+                        <br>
+                        <label for="email" class="label">信箱</label>
+                        <br>
+                        <input type="email" class="input" name="email" id="email" placeholder="範例:hexschool@gmail.com">
+                        <br>
+                        <input type="submit" class="submit" value="送出">
+                    </div>
+                    <div class="clearFix"></div>
+                </form>
+            </div>
+        </div>
+        <div class="footer">
+            <h1><a class="logo" href="#" title="六角學院">六角學院</a></h1>
+            <div class="contact">
+                <p>聯絡我們： <span class="pink" id="contact_email">hexschool@gmail.com</span></p>
+                <br>
+                <p>電話： <span class="pink" id="contact_phone">0999123456</span></p>
+            </div>
+        </div>
+    </div>
+    <script src="./js/jquery-3.3.1.js"></script>
+    <script src="./js/lightbox-plus-jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/js/swiper.min.js"></script>
+    <script src="./js/all.js"></script>
+</body>
+
+</html>

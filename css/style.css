@@ -1,0 +1,410 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* -----------------------css reset end-------------------------------- */
+body{
+  font-family: 微軟正黑體;
+}
+
+.wrap{
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.1)
+}
+
+a{
+  text-decoration-line: none;
+  }
+
+.clearFix{
+  clear: both;
+}
+/* ----------------------------all end------------------------------- */
+/* ----------------------------header start------------------------------- */
+.header{
+  padding-top: 20px;
+}
+
+.fb_twitter{
+   background-color: #f6f6f6;
+  padding: 1px 0;
+}
+
+.fb_twitter ul{
+  float: right;
+  margin-right:20px; 
+}
+
+.fb_twitter li{
+  float: left;
+  margin-left: 10px;
+}
+
+.fb,.twtwitter{
+  margin-right: 5px;
+}
+
+.fb_twitter li a:hover{
+  border-bottom: 1px solid blue;
+}
+
+.top_menu > ul{
+  float: right;
+  margin-top: 25px;
+  margin-right: 20px;
+  }
+
+.top_menu li{
+  float: left;
+  margin-left: 50px;
+}
+
+.top_menu li a{
+  color: #26d0a1;
+  display: block;
+  text-align: center;
+  padding: .5em 0;
+}
+
+.top_menu li a:hover,.top_menu a.active{
+  border-bottom: 3px solid #8de1c6;
+}
+
+.top_menu h1{
+  float: left;
+}
+
+.dropdown_product {
+  width: 120px;
+  }
+
+.dropdown_open_product {
+width: 120px;
+display: none;
+}
+
+.dropdown_open_product li{
+width: 120px;
+margin: 0;
+}
+
+.dropdown_open_contact {
+  width: 50px;
+  display: none;
+  }
+  
+  .dropdown_open_contact li{
+  display: block;
+  margin: 0;
+  float: left;
+  }
+
+.logo{
+  width: 174px;
+  height: 48px;
+  background-image: url("../images/logo.png");
+  display: block;
+  text-indent: 101%;
+  overflow: hidden;
+  white-space: nowrap;
+  margin-left: 20px;
+}
+
+.swiper-container {
+  width: 1002px;
+  height: 346px;
+  }
+
+  .banner{
+    line-height: 346px;
+  }
+
+  .banner img{
+    display: block;
+    margin:auto;
+    margin-top:50px; 
+  }
+
+  .back_home{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 20px;
+  }
+
+  .back_home a{
+    font-size: 30px;
+    color:gray;
+  }
+
+  #back_home_close{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.1);
+  }
+
+
+/* -----------------------header end--------------------- */
+/* -----------------------product start--------------------- */
+
+.product{
+  /* width: 960px; */
+  margin: 50px auto;
+  height: 350px;
+  padding: 0 20px;
+}
+
+.sub_product{
+  width: 300px;
+  height: 380px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  box-shadow: 0 5px 5px gray;
+  float: left;
+  box-sizing: border-box;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+#jQuery{
+  float: right;
+}
+
+#rwd{
+  margin-left: 30px;
+}
+
+.sub_product a{
+  display: block;
+}
+
+.sub_product a img{
+  display: block;
+  margin: 0 auto;
+}
+
+.sub_product h3{
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.sub_product p{
+  line-height: 1.5rem;
+}
+
+.sub_product li{
+  line-height: 1.5rem;
+  list-style-type:disc ;
+}
+
+.sub_product ul{
+margin-left: 20px;
+}
+
+/* --------------------product end------------- */
+/* --------------------table start------------- */
+
+.table{
+  margin: 50px auto;
+}
+
+.table h2{
+  text-align: center;
+  margin: 20px;
+  font: bold;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.table table{
+  margin: 0 auto;
+}
+
+th{
+  text-align: left;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  font-weight: bold;
+}
+
+th,td{
+  width: 200px;
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+thead{
+  background-color: #f7f7f7;
+}
+
+.col_1,.col_2,.col_3,.col_4{
+  box-sizing: border-box;
+}
+
+.col_1{
+  padding-left: 20px;
+
+}
+
+.col_2{
+  
+}
+
+.col_3{
+  padding-left: 50px;
+}
+
+.col_4{
+  padding-left: 100px;
+}
+
+.green{
+  color: rgb(5, 201, 142);
+}
+/* ------------------------table end-------------------- */
+/* -------------------------data start------------------------------- */
+
+.data{
+  margin: 50px 0 20px 0;
+  background: linear-gradient(#00644b,#009772);
+  overflow: hidden;
+}
+
+.data_hd{
+  margin-top: 30px;
+}
+
+.data h2{
+  text-align: center;
+  font-size: 24px;
+  font-weight: bolder;
+  color: white;
+  line-height: 2rem;
+}
+
+.form{
+  margin-top: 20px;
+  box-sizing: border-box;
+}
+
+.form_left{
+  float: left;
+  width: 490px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.form_right{
+  float: right;
+  width: 490px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.textarea{
+  float: left;
+  width: 100%;
+  height: 240px;
+  border-radius: 3px;
+}
+
+.label{
+  float: left;
+  color: white;
+}
+
+.input{
+width: 98%;
+padding: 5px;
+border-radius: 5px;
+margin: 10px 0 20px 0;
+}
+
+.submit{
+  float: right;
+  padding: 5px 15px;
+  border-radius: 10%;
+  background-color: #00cc99;
+  color: white;
+  border-color: #00cc99;
+  cursor: pointer;
+}
+
+.submit:hover{
+  background-color: #00ffbf
+}
+/* --------------------------------------data end------------------------------- */
+/* --------------------------------------footer start------------------------------- */
+.footer{
+  margin: 20px auto;
+  padding: 20px;
+  height: 50px;
+}
+
+.contact{
+  float: right;
+}
+
+.footer h1{
+  float: left;
+}
+
+.footer p{
+  float: left;
+  margin: 5px;
+}
+
+.pink {
+  color: rgb(255, 122, 144);
+}
+
+/* --------------------------------------footer end------------------------------- */
